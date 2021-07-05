@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D81B1B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="91px"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Masai School is a 21st century coding"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="29dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="29dp"
+        android:text="school that who cares about you!"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/masai_homepage_icon_1" />
+
+    <Button
+         android:id="@+id/btnsign"
+        android:layout_width="327dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/white"
+        android:background="@color/white"
+        android:text="Sign In"/>
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="329dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:text="Create an account"/>
+
+</LinearLayout>

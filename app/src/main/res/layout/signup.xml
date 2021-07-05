@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#D5110D"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Welcome Back"
+            android:textColor="#E40F0A"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:text="Continue to Signup"
+            android:textColor="#E40F0A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textColor="#75E40F0A"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="387dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/enter_the_name" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            android:textColor="#74E40F0A"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="387dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/enter_the_email" />
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Password"
+            android:textColor="#74E40F0A"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="387dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/enter_the_password" />
+
+        <Button
+            android:id="@+id/signbtn"
+            android:layout_width="369dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/arlybtn"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Have an account? Sign in" />
+
+</LinearLayout>
